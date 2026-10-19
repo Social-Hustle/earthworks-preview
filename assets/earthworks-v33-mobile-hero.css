@@ -1,0 +1,30 @@
+/* V33: fit the supplied mobile homepage artwork without the old wide-image zoom.
+   Uses the existing phone breakpoint. No desktop or inner-page styles changed. */
+@layer ew21-components {
+  @media (max-width:767px) {
+    .client-home-hero.ew33-mobile-hero {
+      height:auto!important;
+      min-height:0!important;
+    }
+    .client-home-hero.ew33-mobile-hero::before {
+      display:none!important;
+      content:none!important;
+      background-image:none!important;
+    }
+    .client-home-hero.ew33-mobile-hero picture {display:block;}
+    .client-home-hero.ew33-mobile-hero img {
+      display:block!important;
+      position:static!important;
+      inset:auto!important;
+      width:100%!important;
+      height:auto!important;
+      max-width:100%!important;
+      max-height:none!important;
+      transform:none!important;
+      object-fit:contain!important;
+      object-position:center!important;
+      mask-image:none!important;
+      -webkit-mask-image:none!important;
+    }
+  }
+}

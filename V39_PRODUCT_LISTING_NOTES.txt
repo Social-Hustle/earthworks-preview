@@ -1,0 +1,19 @@
+EARTH WORKS V39 - MULCH & PINE STRAW PRODUCT LISTING ONLY
+
+Added in user-provided order to /collections/mulch-and-pine-straw/ and the shared Landscape Supplies mega menu.
+
+1. Double Shred Pine -> assets/catalog/mulch-and-pine-straw/Double Shred Pine.jpg
+2. Big Nugget Pine -> assets/catalog/mulch-and-pine-straw/Big Nugget Pine.jpg
+3. Mini-Nugget Pine -> assets/catalog/mulch-and-pine-straw/Mini Nugget Pine.jpg
+4. Brown Hardwood -> assets/catalog/mulch-and-pine-straw/Brown Hardwood.jpg
+5. Red Hardwood -> assets/catalog/mulch-and-pine-straw/Red Hardwood.jpg
+6. Black Hardwood -> assets/catalog/mulch-and-pine-straw/Black Hardwood.jpg
+7. AL Certified Playground -> assets/catalog/mulch-and-pine-straw/AL Certified Playground.jpg
+8. Pine Straw -> assets/catalog/mulch-and-pine-straw/Pine Straw.jpg
+9. Natural Hardwood Mulch -> assets/catalog/mulch-and-pine-straw/Natural Hardwood Mulch.webp
+
+The original supplied image files are preserved without changes.
+No product-detail pages were created or edited.
+View Product remains visibly unavailable until page content is approved.
+Get a Quote links to the existing contact form.
+All other categories remain empty.

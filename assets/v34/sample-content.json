@@ -1,0 +1,81 @@
+{
+  "notice": "Existing V33 website testimonials. These are not verified location-specific Google reviews; ordering into the two preview widgets is for layout demonstration only.",
+  "groups": [
+    {
+      "id": "indian-springs",
+      "label": "Indian Springs",
+      "image": "yard-indian-springs-thumb.webp",
+      "address": "3225 Cahaba Valley Road, Indian Springs Village, AL 35124",
+      "reviews": [
+        {
+          "name": "Philip Rose",
+          "text": "I\u2019ve had a great experience with Earthworks Landscape Supply. Their prices on topsoil are hard to beat, and the quality was excellent. Friendly staff, easy pickup, and great customer service. I\u2019ll definitely be coming back for future landscaping projects!",
+          "rating": 5
+        },
+        {
+          "name": "Bob Fitzgerald",
+          "text": "Been using these Folks for 25 years awesome product awesome service!",
+          "rating": 5
+        },
+        {
+          "name": "Shaun Downey",
+          "text": "Friendly people and great service!",
+          "rating": 5
+        },
+        {
+          "name": "Peyton Davis",
+          "text": "Have used Earthworks for many years now. Nothing compares to their service. Quick to load you up and quick to deliver to the jobsite. They also have the largest selection of materials in the area. Hands down the best landscape supply store.",
+          "rating": 5
+        },
+        {
+          "name": "Joshua Wright",
+          "text": "Amazing Service could not recommend more from the team there at Earth Works. Tyler, Lance, Phillip are all amazing individuals with fantastic customer service from beginning to end!",
+          "rating": 5
+        }
+      ],
+      "photos": [
+        "sample-mulch",
+        "sample-pinestraw",
+        "sample-playground"
+      ]
+    },
+    {
+      "id": "birmingham",
+      "label": "Birmingham",
+      "image": "yard-birmingham-thumb.webp",
+      "address": "2839 Shannon Oxmoor Road, Birmingham, AL 35211",
+      "reviews": [
+        {
+          "name": "D W",
+          "text": "They always have what I need and are so very kind!! The best part is they are close to home! Exceptional indeed!",
+          "rating": 5
+        },
+        {
+          "name": "Jesus Soto",
+          "text": "Is good place to buy materials. Very efficient when you make orders.and is a good people to work with",
+          "rating": 5
+        },
+        {
+          "name": "Andrew Carmichael",
+          "text": "Excellent service and friendly/knowledgeable staff!",
+          "rating": 5
+        },
+        {
+          "name": "Eric Ochoa",
+          "text": "Great and reliable",
+          "rating": 5
+        },
+        {
+          "name": "Jake Byers",
+          "text": "Ginny and Tyler were fantastic!",
+          "rating": 5
+        }
+      ],
+      "photos": [
+        "sample-gravel",
+        "sample-stone",
+        "sample-yard"
+      ]
+    }
+  ]
+}

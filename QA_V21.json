@@ -1,0 +1,308 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "horizontal_overflow": false,
+      "service_within_viewport": true
+    },
+    {
+      "width": 375,
+      "horizontal_overflow": false
+    },
+    {
+      "width": 390,
+      "horizontal_overflow": false,
+      "service_within_viewport": true
+    },
+    {
+      "width": 620,
+      "horizontal_overflow": false
+    },
+    {
+      "width": 768,
+      "horizontal_overflow": false,
+      "service_within_viewport": true
+    },
+    {
+      "width": 980,
+      "horizontal_overflow": false
+    },
+    {
+      "width": 981,
+      "horizontal_overflow": false,
+      "menu_x": 274.0625,
+      "anchor_x": 274.0625,
+      "right_edge": 957.0,
+      "sidebar_fits": true,
+      "category_stationary": true
+    },
+    {
+      "width": 1024,
+      "horizontal_overflow": false,
+      "menu_x": 295.5625,
+      "anchor_x": 295.5625,
+      "right_edge": 1000.0,
+      "sidebar_fits": true,
+      "category_stationary": true
+    },
+    {
+      "width": 1120,
+      "horizontal_overflow": false,
+      "menu_x": 343.5625,
+      "anchor_x": 343.5625,
+      "right_edge": 1096.0,
+      "sidebar_fits": true,
+      "category_stationary": true
+    },
+    {
+      "width": 1280,
+      "horizontal_overflow": false,
+      "menu_x": 406.1875,
+      "anchor_x": 406.1875,
+      "right_edge": 1256.0,
+      "sidebar_fits": true,
+      "category_stationary": true
+    },
+    {
+      "width": 1366,
+      "horizontal_overflow": false,
+      "menu_x": 433.1875,
+      "anchor_x": 433.1875,
+      "right_edge": 1334.0,
+      "sidebar_fits": true,
+      "category_stationary": true
+    },
+    {
+      "width": 1440,
+      "horizontal_overflow": false,
+      "menu_x": 470.1875,
+      "anchor_x": 470.1875,
+      "right_edge": 1408.0,
+      "sidebar_fits": true,
+      "category_stationary": true
+    },
+    {
+      "width": 1920,
+      "horizontal_overflow": false,
+      "menu_x": 710.1875,
+      "anchor_x": 710.1875,
+      "right_edge": 1648.0,
+      "sidebar_fits": true,
+      "category_stationary": true
+    }
+  ],
+  "interactions": {
+    "category_x_unchanged": true,
+    "category_width_unchanged": true,
+    "no_previous_next_buttons": true,
+    "products_scrollable": true,
+    "mousewheel_scrolls_products": true,
+    "clicked_mega_stays_open": true,
+    "outside_click_closes_mega": true,
+    "hover_mega_closes_on_leave": true,
+    "pickup_click_persists": true,
+    "pickup_hover_closes": true,
+    "delivery_click_persists": true,
+    "delivery_hover_closes": true,
+    "install_click_persists": true,
+    "install_hover_closes": true,
+    "equal_service_panel_heights": true,
+    "service_panel_heights": [
+      552,
+      552,
+      552
+    ],
+    "matched_image_strip_card_gaps": true,
+    "service_panel_gaps": [
+      [
+        14.0,
+        14.0
+      ],
+      [
+        14.0,
+        14.0
+      ],
+      [
+        14.0,
+        14.0
+      ]
+    ],
+    "My Account_notice_is_compact": true,
+    "My Account_notice_theme": {
+      "color": "rgb(35, 77, 6)",
+      "background": "linear-gradient(rgb(242, 214, 169), rgb(220, 178, 120))"
+    },
+    "Cart_notice_is_compact": true,
+    "Cart_notice_theme": {
+      "color": "rgb(35, 77, 6)",
+      "background": "linear-gradient(rgb(242, 214, 169), rgb(220, 178, 120))"
+    },
+    "spanish_notice": "Spanish language support is coming soon.",
+    "english_notice": "English is the current language.",
+    "cart_has_two_wheels": true
+  },
+  "pages": [
+    {
+      "page": "collections/mulch/index.html",
+      "buttons": [
+        {
+          "label": "View Product",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(79, 122, 7), rgb(35, 77, 6))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "Get a Quote",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(242, 214, 169), rgb(220, 178, 120))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "View Product",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(79, 122, 7), rgb(35, 77, 6))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "Get a Quote",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(242, 214, 169), rgb(220, 178, 120))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "View Product",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(79, 122, 7), rgb(35, 77, 6))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "Get a Quote",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(242, 214, 169), rgb(220, 178, 120))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "View Product",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(79, 122, 7), rgb(35, 77, 6))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "Get a Quote",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(242, 214, 169), rgb(220, 178, 120))",
+          "minHeight": "44px"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "page": "products/black-hardwood/index.html",
+      "buttons": [
+        {
+          "label": "Request a Quote",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(79, 122, 7), rgb(35, 77, 6))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "Call Indian Springs",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(242, 214, 169), rgb(220, 178, 120))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "Call Birmingham",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(242, 214, 169), rgb(220, 178, 120))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "View Product",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(79, 122, 7), rgb(35, 77, 6))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "Quote",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(242, 214, 169), rgb(220, 178, 120))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "View Product",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(79, 122, 7), rgb(35, 77, 6))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "Quote",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(242, 214, 169), rgb(220, 178, 120))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "View Product",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(79, 122, 7), rgb(35, 77, 6))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "Quote",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(242, 214, 169), rgb(220, 178, 120))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "Call Indian Springs",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(79, 122, 7), rgb(35, 77, 6))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "Call Birmingham",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(242, 214, 169), rgb(220, 178, 120))",
+          "minHeight": "44px"
+        },
+        {
+          "label": "Request a Quote",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(242, 214, 169), rgb(220, 178, 120))",
+          "minHeight": "44px"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "page": "get-a-quote/index.html",
+      "buttons": [
+        {
+          "label": "Request a Quote",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(79, 122, 7), rgb(35, 77, 6))",
+          "minHeight": "44px"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "page": "contact-us/index.html",
+      "buttons": [
+        {
+          "label": "Contact Us",
+          "radius": "7px",
+          "bg": "linear-gradient(rgb(79, 122, 7), rgb(35, 77, 6))",
+          "minHeight": "44px"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "page": "about-us/index.html",
+      "buttons": [],
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

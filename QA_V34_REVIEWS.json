@@ -1,0 +1,328 @@
+{
+  "render_method": "Chromium in-memory rendering with local styles, scripts and images inlined for isolated QA; delivered files remain standard relative-path HTML/CSS/JS.",
+  "viewports": [
+    {
+      "width": 320,
+      "documentWidth": 320,
+      "widgets": 2,
+      "imageErrors": [],
+      "cardHeights": [
+        257,
+        257,
+        257,
+        257,
+        257,
+        257,
+        257,
+        257,
+        257,
+        257
+      ],
+      "positions": [
+        "1\u20131 of 5 sample reviews",
+        "1\u20131 of 5 sample reviews"
+      ],
+      "headers": [
+        {
+          "width": 288,
+          "scrollWidth": 288
+        },
+        {
+          "width": 288,
+          "scrollWidth": 288
+        }
+      ],
+      "trackSizes": [
+        {
+          "width": 288,
+          "scroll": 1504
+        },
+        {
+          "width": 288,
+          "scroll": 1504
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "widgets": 2,
+      "imageErrors": [],
+      "cardHeights": [
+        257,
+        257,
+        257,
+        257,
+        257,
+        257,
+        257,
+        257,
+        257,
+        257
+      ],
+      "positions": [
+        "1\u20131 of 5 sample reviews",
+        "1\u20131 of 5 sample reviews"
+      ],
+      "headers": [
+        {
+          "width": 358,
+          "scrollWidth": 358
+        },
+        {
+          "width": 358,
+          "scrollWidth": 358
+        }
+      ],
+      "trackSizes": [
+        {
+          "width": 358,
+          "scroll": 1854
+        },
+        {
+          "width": 358,
+          "scroll": 1854
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 760,
+      "documentWidth": 760,
+      "widgets": 2,
+      "imageErrors": [],
+      "cardHeights": [
+        257,
+        257,
+        257,
+        257,
+        257,
+        257,
+        257,
+        257,
+        257,
+        257
+      ],
+      "positions": [
+        "1\u20131 of 5 sample reviews",
+        "1\u20131 of 5 sample reviews"
+      ],
+      "headers": [
+        {
+          "width": 728,
+          "scrollWidth": 728
+        },
+        {
+          "width": 728,
+          "scrollWidth": 728
+        }
+      ],
+      "trackSizes": [
+        {
+          "width": 728,
+          "scroll": 3704
+        },
+        {
+          "width": 728,
+          "scroll": 3704
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "widgets": 2,
+      "imageErrors": [],
+      "cardHeights": [
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245
+      ],
+      "positions": [
+        "1\u20132 of 5 sample reviews",
+        "1\u20132 of 5 sample reviews"
+      ],
+      "headers": [
+        {
+          "width": 724,
+          "scrollWidth": 724
+        },
+        {
+          "width": 724,
+          "scrollWidth": 724
+        }
+      ],
+      "trackSizes": [
+        {
+          "width": 724,
+          "scroll": 1840
+        },
+        {
+          "width": 724,
+          "scroll": 1840
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "documentWidth": 1024,
+      "widgets": 2,
+      "imageErrors": [],
+      "cardHeights": [
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245
+      ],
+      "positions": [
+        "1\u20132 of 5 sample reviews",
+        "1\u20132 of 5 sample reviews"
+      ],
+      "headers": [
+        {
+          "width": 980,
+          "scrollWidth": 980
+        },
+        {
+          "width": 980,
+          "scrollWidth": 980
+        }
+      ],
+      "trackSizes": [
+        {
+          "width": 980,
+          "scroll": 2480
+        },
+        {
+          "width": 980,
+          "scroll": 2480
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "widgets": 2,
+      "imageErrors": [],
+      "cardHeights": [
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245
+      ],
+      "positions": [
+        "1\u20133 of 5 sample reviews",
+        "1\u20133 of 5 sample reviews"
+      ],
+      "headers": [
+        {
+          "width": 1396,
+          "scrollWidth": 1396
+        },
+        {
+          "width": 1396,
+          "scrollWidth": 1396
+        }
+      ],
+      "trackSizes": [
+        {
+          "width": 1396,
+          "scroll": 2340
+        },
+        {
+          "width": 1396,
+          "scroll": 2340
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1920,
+      "documentWidth": 1920,
+      "widgets": 2,
+      "imageErrors": [],
+      "cardHeights": [
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245,
+        245
+      ],
+      "positions": [
+        "1\u20133 of 5 sample reviews",
+        "1\u20133 of 5 sample reviews"
+      ],
+      "headers": [
+        {
+          "width": 1460,
+          "scrollWidth": 1460
+        },
+        {
+          "width": 1460,
+          "scrollWidth": 1460
+        }
+      ],
+      "trackSizes": [
+        {
+          "width": 1460,
+          "scroll": 2447
+        },
+        {
+          "width": 1460,
+          "scroll": 2447
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "interactions": {
+    "separate_carousels": true,
+    "previous_next_and_end_state": true,
+    "keyboard_home": true,
+    "full_review_modal": true,
+    "escape_closes_and_restores_focus": true,
+    "sample_photo_gallery": true,
+    "two_location_leave_review_preview_messages": true,
+    "preview_notification_bottom_right_two_seconds": true
+  },
+  "preservation": {
+    "header_render_identical": true,
+    "hero_render_identical": true,
+    "footer_render_identical": false,
+    "header_markup_identical": true,
+    "hero_markup_identical": true,
+    "footer_markup_identical": true,
+    "changed_original_files": [
+      "reviews/index.html"
+    ],
+    "all_other_v33_files_unchanged": true
+  }
+}

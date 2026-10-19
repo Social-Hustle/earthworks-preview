@@ -1,0 +1,123 @@
+/* Earth Works v11 header + hero refinement.
+   Scope: navigation/header cleanup, supplied transparent logo, and a safer
+   zoomed-out homepage hero crop. All underlying page layouts remain intact. */
+
+:root{--ew-header-top:94px;--ew-nav-height:58px;--ew-fixed-header-height:152px}
+body{padding-top:var(--ew-fixed-header-height)!important}
+.client-header{position:fixed!important;top:0!important;left:0!important;right:0!important;width:100%!important;z-index:99999!important}
+.client-header__black{background:#050604!important}
+
+/* One clean desktop row: logo | promise | two phones | search | quote */
+.client-header__grid.client-header__grid--v11{
+  min-height:var(--ew-header-top)!important;
+  display:grid!important;
+  grid-template-columns:175px 258px minmax(0,1fr)!important;
+  gap:22px!important;
+  align-items:center!important;
+}
+.client-brand__plate{
+  width:168px!important;height:76px!important;padding:0!important;margin:0!important;
+  background:transparent!important;border-radius:0!important;overflow:visible!important;
+}
+.client-brand__plate img{width:100%!important;height:100%!important;object-fit:contain!important;filter:none!important}
+.client-slogan--v11{text-align:left!important;align-self:center!important;min-width:0!important}
+.client-slogan--v11 strong{
+  display:block!important;margin:0!important;color:#fff!important;font-size:20px!important;
+  line-height:1.12!important;white-space:nowrap!important;font-family:var(--ew19-font-accent)!important;
+}
+.client-slogan--v11 .client-slogan__covered{color:#62b83b!important;border:0!important;padding:0!important;font-size:inherit!important}
+.client-slogan--v11>div{display:none!important}
+
+.client-utility.client-utility--v11{
+  min-width:0!important;display:grid!important;
+  grid-template-columns:142px 142px minmax(260px,1fr) 154px!important;
+  gap:12px!important;align-items:center!important;
+}
+.client-utility--v11 .client-contact{
+  min-width:0!important;height:54px!important;margin:0!important;padding:6px 10px!important;
+  display:flex!important;flex-direction:column!important;justify-content:center!important;
+  align-items:flex-start!important;border-left:1px solid rgba(255,255,255,.15)!important;color:#fff!important;
+}
+.client-utility--v11 .client-contact:first-child{border-left:0!important}
+.client-utility--v11 .client-contact b{
+  color:#fff!important;font-size:15px!important;font-weight:760!important;line-height:1.05!important;white-space:nowrap!important;
+  font-family:var(--ew19-font-display)!important;
+}
+.client-utility--v11 .client-contact small{
+  margin-top:4px!important;color:#b9beb5!important;font-size:8px!important;font-weight:700!important;
+  letter-spacing:.065em!important;text-transform:uppercase!important;white-space:nowrap!important;
+}
+.client-search-button.client-search-button--v11{
+  width:100%!important;min-width:0!important;height:54px!important;padding:7px 10px 7px 16px!important;
+  border:1px solid #e1e6dd!important;border-radius:7px!important;background:#fff!important;color:#10130e!important;
+  box-shadow:0 5px 16px rgba(0,0,0,.14)!important;display:flex!important;align-items:center!important;justify-content:space-between!important;
+}
+.client-search-button--v11:hover{background:#fff!important;border-color:#71b84a!important;transform:none!important}
+.client-search-button--v11 .client-search-button__label{
+  min-width:0!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;
+  gap:4px!important;text-align:left!important;line-height:1.05!important;overflow:hidden!important;
+}
+.client-search-button--v11 .client-search-button__label small{
+  color:#4f991f!important;font-size:8px!important;font-weight:800!important;letter-spacing:.095em!important;text-transform:uppercase!important;white-space:nowrap!important;
+}
+.client-search-button--v11 .client-search-button__label b{
+  width:100%!important;color:#252922!important;font-size:11px!important;font-weight:500!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;
+}
+.client-search-button--v11 .client-search-button__icon{
+  flex:0 0 34px!important;width:34px!important;height:34px!important;border-radius:6px!important;background:#eef6e9!important;display:grid!important;place-items:center!important;
+}
+.client-search-button--v11 .client-search-button__icon svg{width:18px!important;height:18px!important;fill:none!important;stroke:#4e9c24!important;stroke-width:1.9!important}
+.client-utility--v11 .client-quote-button{
+  height:54px!important;min-height:54px!important;padding:0 18px!important;border-radius:7px!important;
+  background:linear-gradient(180deg,#64bd39,#479f21)!important;color:#fff!important;font-size:14px!important;font-weight:800!important;
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;white-space:nowrap!important;
+}
+.client-help-link,.client-search-row{display:none!important}
+
+/* Navigation keeps the white client-approved direction and feels integrated with the tighter top row. */
+.client-nav{height:var(--ew-nav-height)!important;background:#fff!important;border-bottom:1px solid #e4e8e1!important}
+.client-nav__inner{height:var(--ew-nav-height)!important;gap:62px!important;justify-content:center!important}
+
+/* Homepage hero: preserve the exact art, show the whole mascot/cap, and keep the headline centered. */
+.client-home-hero{
+  position:relative!important;height:clamp(355px,23vw,440px)!important;background:#e6eadf!important;overflow:hidden!important;
+}
+.client-home-hero::before{
+  content:"";position:absolute;inset:-18px;background:url("homepage-hero-zoomed.png") center/cover no-repeat;
+  filter:blur(14px) saturate(.88);opacity:.55;transform:scale(1.04);z-index:0;
+}
+.client-home-hero img{
+  position:relative!important;z-index:1!important;width:100%!important;height:100%!important;
+  object-fit:contain!important;object-position:center!important;max-height:none!important;
+}
+
+@media(max-width:1500px){
+  .client-header__grid.client-header__grid--v11{grid-template-columns:155px 225px minmax(0,1fr)!important;gap:16px!important}
+  .client-brand__plate{width:150px!important;height:70px!important}
+  .client-slogan--v11 strong{font-size:17px!important}
+  .client-utility.client-utility--v11{grid-template-columns:128px 128px minmax(230px,1fr) 135px!important;gap:8px!important}
+  .client-utility--v11 .client-contact b{font-size:13px!important}
+  .client-utility--v11 .client-quote-button{font-size:12px!important}
+  .client-nav__inner{gap:44px!important}
+}
+@media(max-width:1180px){
+  :root{--ew-header-top:82px;--ew-fixed-header-height:140px}
+  .client-header__grid.client-header__grid--v11{grid-template-columns:135px 190px minmax(0,1fr)!important;gap:12px!important}
+  .client-brand__plate{width:130px!important;height:60px!important}
+  .client-slogan--v11 strong{font-size:15px!important}
+  .client-utility.client-utility--v11{grid-template-columns:112px 112px minmax(190px,1fr) 116px!important;gap:6px!important}
+  .client-utility--v11 .client-contact{padding-inline:6px!important}.client-utility--v11 .client-contact b{font-size:12px!important}
+  .client-search-button.client-search-button--v11,.client-utility--v11 .client-quote-button{height:46px!important;min-height:46px!important}
+  .client-nav__inner{gap:28px!important}
+}
+@media(max-width:900px){
+  :root{--ew-header-top:76px;--ew-fixed-header-height:76px}
+  body{padding-top:76px!important}
+  .client-header__grid.client-header__grid--v11{min-height:76px!important;grid-template-columns:44px 1fr auto!important;gap:12px!important}
+  .client-brand{justify-self:start!important}.client-brand__plate{width:150px!important;height:60px!important}
+  .client-slogan--v11,.client-utility.client-utility--v11{display:none!important}
+  .client-nav{position:fixed!important;top:76px!important;left:0!important;right:0!important;bottom:0!important;height:auto!important;background:#fff!important}
+  .client-nav__inner{height:auto!important;display:block!important;padding:18px!important}
+  .client-home-hero{height:300px!important}
+}
+@media(max-width:620px){.client-home-hero{height:220px!important}}

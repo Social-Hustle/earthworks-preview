@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050604">
+  <title>Earth Works Landscape Supply</title>
+  <meta name="description" content="Earth Works Landscape Supply prototype based on the client-approved homepage direction.">
+  
+  <link rel="stylesheet" href="styles.css">
+
+<style id="local-sticky-header-fix">
+/* Local preview safety: keep the full approved header visible while scrolling. */
+.client-header{
+  position:fixed!important;
+  top:0!important;
+  left:0!important;
+  right:0!important;
+  width:100%!important;
+  z-index:99999!important;
+}
+body{padding-top:var(--ew-fixed-header-height, 158px)!important;}
+@media (max-width:900px){body{padding-top:var(--ew-fixed-header-height, 76px)!important;}}
+</style>
+
+
+<link rel="stylesheet" href="assets/brand-v10.css">
+  <link rel="stylesheet" href="assets/brand-v11.css">
+  <link rel="stylesheet" href="assets/brand-v12.css">
+
+<style id="exact-uploaded-hero-image">
+.client-home-hero{height:auto!important;background:#fff!important;overflow:hidden!important;}
+.client-home-hero::before{display:none!important;content:none!important;}
+.client-home-hero img{display:block!important;width:100%!important;height:auto!important;max-width:none!important;max-height:none!important;object-fit:contain!important;object-position:center!important;filter:none!important;transform:none!important;}
+</style>
+
+<style id="earthworks-footer-wordmark-refinement">
+/* Footer wordmark: restrained base visibility + local cursor-follow glow. */
+.client-footer__wordmark{
+  --mx:50%;
+  --my:50%;
+  border-top:1px solid rgba(255,255,255,.055)!important;
+  padding:28px 20px 24px!important;
+  overflow:hidden!important;
+  text-align:center!important;
+}
+.client-footer__wordmark span{
+  position:relative!important;
+  display:block!important;
+  width:min(100%,1500px)!important;
+  margin:0 auto!important;
+  font-family:var(--ew19-font-display)!important;
+  font-size:clamp(58px,10vw,160px)!important;
+  font-weight:900!important;
+  line-height:.82!important;
+  letter-spacing:clamp(.025em,.22vw,.06em)!important;
+  text-transform:uppercase!important;
+  white-space:nowrap!important;
+  color:rgba(255,255,255,.07)!important;
+  -webkit-text-fill-color:rgba(255,255,255,.07)!important;
+  text-shadow:none!important;
+  background:none!important;
+  filter:none!important;
+}
+.client-footer__wordmark span::after{
+  content:"EARTHWORKS";
+  position:absolute;
+  inset:0;
+  display:block;
+  font:inherit;
+  letter-spacing:inherit;
+  line-height:inherit;
+  text-align:inherit;
+  color:rgba(185,222,111,.52);
+  -webkit-text-fill-color:rgba(185,222,111,.52);
+  text-shadow:0 0 8px rgba(120,168,38,.2),0 0 18px rgba(120,168,38,.08);
+  opacity:0;
+  pointer-events:none;
+  -webkit-mask-image:radial-gradient(circle 90px at var(--mx) var(--my),#000 0%,#000 35%,rgba(0,0,0,.72) 54%,transparent 78%);
+  mask-image:radial-gradient(circle 90px at var(--mx) var(--my),#000 0%,#000 35%,rgba(0,0,0,.72) 54%,transparent 78%);
+  transition:opacity .12s ease;
+}
+.client-footer__wordmark.is-hovering span::after{opacity:1;}
+@media(max-width:720px){
+  .client-footer__wordmark{padding:22px 10px 20px!important;}
+  .client-footer__wordmark span{
+    font-size:12.5vw!important;
+    letter-spacing:.02em!important;
+    white-space:nowrap!important;
+    line-height:.84!important;
+  }
+  .client-footer__wordmark span::after{
+    -webkit-mask-image:radial-gradient(circle 60px at var(--mx) var(--my),#000 0%,#000 36%,rgba(0,0,0,.7) 55%,transparent 80%);
+    mask-image:radial-gradient(circle 60px at var(--mx) var(--my),#000 0%,#000 36%,rgba(0,0,0,.7) 55%,transparent 80%);
+  }
+}
+</style>
+<link rel="stylesheet" href="assets/earthworks-v18-brand-navigation.css">
+<link rel="stylesheet" href="assets/earthworks-v19-brand-system.css">
+<link rel="stylesheet" href="assets/earthworks-v20-refinement.css">
+<link rel="stylesheet" href="assets/earthworks-v21-polish.css">
+<link rel="stylesheet" href="assets/earthworks-v29-responsive.css">
+<link rel="stylesheet" href="assets/earthworks-v33-mobile-hero.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="ew17-announcement"><span class="ew26-announcement-accent">Installation</span> slots are booked 2-3 days out &ndash; <a href="tel:2059829922">Call Today!</a></div>
+<header class="client-header ew17-header" id="siteHeader" data-root="">
+<div class="ew17-black">
+    <div class="ew17-shell ew17-black__inner">
+      <div class="ew17-promise" aria-label="Earth Works service promise">
+        <div class="ew17-promise__headline">&ldquo;We Have Your Grounds <em>Covered!</em>&rdquo;</div>
+        <div class="ew17-services" aria-label="Pickup, delivery and installation services">
+          <button class="ew17-service-trigger" type="button" data-service-trigger="pickup" aria-expanded="false" aria-controls="ew-service-panel">Pick Up</button>
+          <button class="ew17-service-trigger" type="button" data-service-trigger="delivery" aria-expanded="false" aria-controls="ew-service-panel">Delivery</button>
+          <button class="ew17-service-trigger" type="button" data-service-trigger="install" aria-expanded="false" aria-controls="ew-service-panel">Install</button>
+        </div>
+      </div>
+      <div class="ew17-search">
+        <button class="ew17-search-button" id="openSearch" data-open-search type="button" aria-label="Search products">
+          <span class="ew17-search-copy"><small>Search the catalogue</small><b>Mulch, stone, soil, sand and more</b></span>
+          <span class="ew17-search-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg></span>
+        </button>
+      </div>
+      <a class="ew17-phone" href="tel:2059829922"><b>205-982-9922</b><small>Indian Springs</small></a>
+      <a class="ew17-phone" href="tel:2059423311"><b>205-942-3311</b><small>Birmingham</small></a>
+      <div class="ew19-utility-cluster"><button class="ew17-utility-button" type="button" data-coming-soon="My Account is coming soon." aria-label="My Account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.2-5 4-7 8-7s6.8 2 8 7"/></svg><span>My Account</span></button>
+      <details class="ew17-language"><summary aria-label="Language switcher"><img class="ew20-flag" src="assets/flag-us.svg" width="24" height="16" alt="" aria-hidden="true"><span>English</span></summary><div class="ew17-language-menu"><button type="button" class="is-current" data-language-option="en"><img class="ew20-flag" src="assets/flag-us.svg" width="24" height="16" alt="" aria-hidden="true"><span>English</span></button><button type="button" data-language-option="es"><img class="ew20-flag" src="assets/flag-es.svg" width="24" height="16" alt="" aria-hidden="true"><span>Espa&ntilde;ol</span></button></div></details>
+      <button class="ew17-utility-button" type="button" data-coming-soon="E-commerce is coming soon." aria-label="Cart"><svg viewBox="0 0 24 24"><path d="M3 4h2l2 11h10l2-8H7M9 20h.01M17 20h.01"/></svg><span>Cart</span></button></div>
+    </div>
+  </div>
+  <div class="ew17-white">
+    <div class="ew17-shell ew17-white__inner">
+      <a class="ew17-logo" href="index.html" aria-label="Earth Works Landscape Supply home"><img src="assets/header-logo-client-reference.png" alt="Earth Works Landscape Supply"></a>
+      <button class="ew17-mobile-toggle" type="button" aria-expanded="false" aria-label="Open navigation"><span></span></button>
+      <nav class="ew17-navlinks" aria-label="Primary navigation">
+        <div class="ew17-mega-wrap">
+          <button class="ew17-mega-trigger" type="button" aria-haspopup="true">Landscape Supplies <svg viewBox="0 0 16 16"><path d="m3 6 5 5 5-5"/></svg></button>
+          <div class="ew17-mega-menu" aria-label="Landscape supplies mega menu">
+            <div class="ew17-mega-grid">
+              <div class="ew17-mega-categories"><div class="ew17-mega-label">Shop by category</div><ul class="ew17-category-list">
+                <li><a class="ew17-category-item" data-mega-category="mulch-pine-straw" href="collections/mulch-and-pine-straw/index.html">Mulch &amp; Pine Straw</a></li>
+                <li><a class="ew17-category-item" data-mega-category="soil-sand" href="collections/soil-and-sand/index.html">Soil &amp; Sand</a></li>
+                <li><a class="ew17-category-item" data-mega-category="gravel-decorative-stone" href="collections/gravel-and-decorative-stone/index.html">Gravel &amp; Decorative Stone</a></li>
+                <li><a class="ew17-category-item" data-mega-category="palletized-stone" href="collections/palletized-stone/index.html">Palletized Stone</a></li>
+                <li><a class="ew17-category-item" data-mega-category="erosion-geotextiles" href="collections/erosion-control-and-geotextiles/index.html">Erosion Control &amp; Geotextiles</a></li>
+                <li><a class="ew17-category-item" data-mega-category="storm-drainage" href="collections/storm-and-drainage-pipe/index.html">Storm &amp; Drainage Pipe</a></li>
+                <li><a class="ew17-category-item" data-mega-category="artificial-turf" href="collections/artificial-turf/index.html">Artificial Turf</a></li>
+                <li><a class="ew17-category-item" data-mega-category="additional" href="collections/additional-products-and-services/index.html">Additional Products &amp; Services</a></li>
+              </ul></div>
+              <div class="ew17-mega-products"><div class="ew17-mega-products__head"><h3 data-mega-title>Select a category</h3><a class="ew17-mega-viewall" data-mega-viewall href="collections/mulch/index.html">View Category</a></div><div class="ew17-mega-product-grid" data-mega-products></div></div>
+              <aside class="ew17-mega-service" data-mega-service></aside>
+            </div>
+          </div>
+        </div>
+        <a class="ew17-navlink" href="reviews/index.html">Reviews</a>
+        <a class="ew17-navlink" href="about-us/index.html">About Us</a>
+        <a class="ew17-navlink" href="contact-us/index.html">Contact Us</a>
+        <a class="ew17-navlink" href="faq/index.html">FAQ</a>
+      </nav>
+      <a class="ew17-quote" href="contact-us/index.html#contact-form">Get a Quote</a>
+    </div>
+  </div>
+  <div class="ew17-service-panel" id="ew-service-panel" role="region" aria-label="Earth Works services" aria-hidden="true"><button class="ew17-service-close" type="button" aria-label="Close service panel">&times;</button><div class="ew17-service-panel__inner" data-service-content></div></div>
+</header>
+<div class="ew17-toast" role="status" aria-live="polite">Coming Soon</div>
+
+  <div class="search-overlay" id="searchOverlay" aria-hidden="true">
+    <button class="search-overlay__backdrop" id="closeSearchBackdrop" type="button" aria-label="Close search"></button>
+    <div class="search-panel" role="dialog" aria-modal="true" aria-labelledby="searchTitle">
+      <div class="search-panel__head">
+        <div>
+          <small>Product search</small>
+          <h2 id="searchTitle">What are you looking for?</h2>
+        </div>
+        <button class="search-close" id="closeSearch" type="button" aria-label="Close search">×</button>
+      </div>
+      <div class="site-search">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+        <input id="siteSearch" type="search" autocomplete="off" placeholder="Try #57 Limestone, river rock, topsoil, black hardwood…" aria-label="Search Earth Works products">
+      </div>
+      <div class="search-prompt">Suggestions update as you type, keeping visitors inside the current Earth Works product range.</div>
+      <div class="search-results active" id="searchResults"></div>
+    </div>
+  </div>
+
+  <main id="main" tabindex="-1">
+    <div id="app"></div>
+  </main>
+
+  <footer class="client-footer">
+    <div class="page-width client-footer__grid">
+      <div class="client-footer__brand">
+        <span class="client-footer__logo"><img src="assets/new-logo-transparent.png" alt="Earth Works Landscape Supply"></span>
+        <p>Quality landscape materials, reliable delivery and friendly local service for homeowners and professionals.</p>
+      </div>
+      <div>
+        <h4>Indian Springs</h4>
+        <p><a href="tel:2059829922">205-982-9922</a><br>3225 Cahaba Valley Rd<br>Indian Springs Village, AL 35124</p>
+      </div>
+      <div>
+        <h4>Birmingham</h4>
+        <p><a href="tel:2059423311">205-942-3311</a><br>2839 Shannon Oxmoor Rd<br>Birmingham, AL 35211</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="pages/about-us/index.html">About Us</a></li>
+          <li><a href="collections/all/index.html">Products</a></li>
+          <li><a href="pages/contact-us/index.html">Delivery</a></li>
+          <li><a href="pages/contact-us/index.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Customer Service</h4>
+        <ul>
+          <li><a href="contact-us/index.html#contact-form">Request a Quote</a></li>
+          <li><a href="pages/reviews/index.html">Customer Reviews</a></li>
+          <li><a href="pages/contact-us/index.html">FAQs</a></li>
+          <li><a href="mailto:info@earthworkstoday.com">Email Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <div class="client-socials"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="Google">G</a></div>
+      </div>
+    </div>
+    <div class="page-width client-footer__bottom"><span>© 2026 Earth Works Landscape Supply. All Rights Reserved.</span><span>Powered by Pixis</span></div>
+    <div class="client-footer__wordmark" aria-hidden="true"><span>EARTHWORKS</span></div>
+  </footer>
+
+  <div class="mobile-action-bar" aria-label="Quick actions">
+    <a href="tel:2059829922"><span class="mobile-action-icon">☎</span><span>Call</span></a>
+    <button id="mobileSearchButton" type="button"><span class="mobile-action-icon">⌕</span><span>Search</span></button>
+    <a class="mobile-action-primary" href="contact-us/index.html#contact-form"><span class="mobile-action-icon">→</span><span>Get a Quote</span></a>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="homepage-links.js"></script>
+
+<script id="local-preview-route-and-header-fix">
+(function(){
+  function setHeaderOffset(){
+    var header=document.getElementById('siteHeader')||document.querySelector('.client-header');
+    if(header){document.documentElement.style.setProperty('--ew-fixed-header-height', header.offsetHeight+'px');}
+  }
+  setHeaderOffset();
+  window.addEventListener('load',setHeaderOffset);
+  window.addEventListener('resize',setHeaderOffset);
+  setTimeout(setHeaderOffset,50);
+  setTimeout(setHeaderOffset,300);
+})();
+</script>
+
+<script id="earthworks-footer-wordmark-hover-follow">
+(function(){
+  function bindWordmarkHover(mark){
+    if(!mark) return;
+    function setPoint(point){
+      var rect=mark.getBoundingClientRect();
+      if(!rect.width || !rect.height) return;
+      var x=((point.clientX-rect.left)/rect.width)*100;
+      var y=((point.clientY-rect.top)/rect.height)*100;
+      mark.style.setProperty('--mx',Math.max(0,Math.min(100,x))+'%');
+      mark.style.setProperty('--my',Math.max(0,Math.min(100,y))+'%');
+    }
+    mark.addEventListener('mouseenter',function(e){mark.classList.add('is-hovering');setPoint(e);});
+    mark.addEventListener('mousemove',setPoint);
+    mark.addEventListener('mouseleave',function(){mark.classList.remove('is-hovering');});
+    mark.addEventListener('touchstart',function(e){var t=e.touches&&e.touches[0]; if(t){mark.classList.add('is-hovering');setPoint(t);}}, {passive:true});
+    mark.addEventListener('touchmove',function(e){var t=e.touches&&e.touches[0]; if(t){setPoint(t);}}, {passive:true});
+    mark.addEventListener('touchend',function(){mark.classList.remove('is-hovering');});
+  }
+  document.querySelectorAll('.client-footer__wordmark').forEach(bindWordmarkHover);
+})();
+</script>
+
+<script src="assets/earthworks-v21-navigation.js"></script>
+<script src="assets/earthworks-v21-components.js"></script>
+<script src="assets/earthworks-v29-responsive.js"></script>
+</body>
+</html>

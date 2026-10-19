@@ -1,0 +1,62 @@
+EARTH WORKS - V35 ABOUT US AND REVIEWS UPDATE
+Base: earthworks_v34_two_location_reviews.zip
+
+REVIEWS
+Removed the Google reviews introductory label, "Reviews from our two locations"
+heading, "Preview only" introduction, and "App layout preview" badge.
+The existing Indian Springs and Birmingham review widgets now follow the hero.
+The widget contents, sample labels, pending live data, carousel controls, and
+review/photo dialogs are unchanged. This remains a static app-layout preview;
+no Shopify app or Google Business Profile connection has been added.
+
+ABOUT US
+Replaced the previous short Our Story section with the full supplied story.
+All narrative paragraphs and their order are retained. The screen layout uses
+an image-led opening, a WWDD values panel, two readable narrative columns, and
+a closing legacy statement. No story text is hidden behind a Read More control.
+Added Meet DRT immediately after Our Story using the complete supplied text.
+Used the two supplied images without redrawing, retouching or cropping them.
+
+Replaced the four fact cards with five:
+- Two generations: Serving the greater Birmingham market for 40 years.
+- Two convenient locations: Indian Springs Village and Birmingham.
+- Pickup: Just drop by.
+- Delivery: Contact the team for delivery availability and scheduling.
+- Installation: ...and we'll install it for ya too.
+
+The Pickup, Delivery and Installation cards open the existing pinned header
+service dropdowns. They do not create new service pages or popups.
+Removed the Meet Philip placeholder section.
+The existing About Us hero, materials grid and two-yard location section remain.
+
+FOOTER
+Restored the homepage-style cursor-follow glow on inner-page wordmarks.
+Added missing hover handlers on product/collection pages. Base wordmark size,
+typeface, color and responsive visibility have not been changed.
+
+VALIDATION
+Checked both edited pages at 320, 390, 768, 1024, 1280 and 1440 CSS pixels.
+Verified all three service-card clicks at 320, 390 and 1440 widths.
+Verified visible hover changes on the homepage, About, Reviews, Contact, FAQ,
+and representative collection and product pages.
+All 118 full pages load the shared footer fix.
+Verified the full supplied story and Meet DRT copy remains present and ordered.
+Verified both supplied images are byte-identical to their uploaded originals.
+The homepage top-of-page screenshot is identical to V34.
+No page overflow, broken source images or JavaScript errors were found in the
+edited-page checks.
+
+CHANGED EXISTING FILES
+about-us/index.html
+reviews/index.html
+assets/earthworks-v21-polish.css (footer effect only)
+assets/earthworks-v21-components.js (missing footer hover handlers only)
+
+ADDED FILES
+assets/earthworks-v35-about.css
+assets/v35/our-story.png
+assets/v35/meet-drt.png
+V35_CHANGE_SUMMARY.txt
+
+All other existing files remain byte-identical to V34.
+Extract into a fresh folder. index.html is at the root of this ZIP.

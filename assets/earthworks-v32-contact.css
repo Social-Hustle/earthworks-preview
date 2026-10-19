@@ -1,0 +1,4 @@
+/* Only the Contact form anchor uses this offset; existing page styling is untouched. */
+#contact-form {
+  scroll-margin-top:calc(var(--ew-fixed-header-height,170px) + 20px);
+}

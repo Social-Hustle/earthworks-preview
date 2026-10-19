@@ -1,0 +1,574 @@
+{
+  "method": "Offline Chromium rendering with local in-memory assets; no external requests.",
+  "checks": [
+    {
+      "check": "about-us CTA count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "about-us viewport 320 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "about-us CTA matches home 320",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "about-us viewport 390 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "about-us CTA matches home 390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "about-us viewport 768 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "about-us CTA matches home 768",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "about-us viewport 1024 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "about-us CTA matches home 1024",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "about-us viewport 1440 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "about-us CTA matches home 1440",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "about-us viewport 1920 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "about-us CTA matches home 1920",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "About eyebrow exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Removed sprawling story sections",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Story opens 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Modal fits viewport 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Story mouse-wheel scroll 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Full story ending accessible 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Modal keyboard focus 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Escape closes and restores focus 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Scroll restored after modal 390",
+      "passed": true,
+      "detail": [
+        1042,
+        1042
+      ]
+    },
+    {
+      "check": "Close control 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Backdrop dismiss 390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Story opens 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Modal fits viewport 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Story mouse-wheel scroll 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Full story ending accessible 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Modal keyboard focus 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Escape closes and restores focus 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Scroll restored after modal 1440",
+      "passed": true,
+      "detail": [
+        600,
+        600
+      ]
+    },
+    {
+      "check": "Close control 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Backdrop dismiss 1440",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Existing pickup fact opens header panel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Existing delivery fact opens header panel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Existing install fact opens header panel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "faq CTA count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "faq viewport 320 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "faq CTA matches home 320",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "faq viewport 390 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "faq CTA matches home 390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "faq viewport 768 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "faq CTA matches home 768",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "faq viewport 1024 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "faq CTA matches home 1024",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "faq viewport 1440 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "faq CTA matches home 1440",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "faq viewport 1920 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "faq CTA matches home 1920",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Fourteen FAQs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ toggle 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ toggle 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ toggle 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ toggle 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ toggle 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ toggle 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ toggle 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ toggle 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ toggle 9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ toggle 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ toggle 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ toggle 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ toggle 13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ toggle 14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ keyboard opens",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ keyboard closes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No extra FAQ headings or lists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reviews CTA count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reviews viewport 320 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reviews CTA matches home 320",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "reviews viewport 390 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reviews CTA matches home 390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "reviews viewport 768 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reviews CTA matches home 768",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "reviews viewport 1024 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reviews CTA matches home 1024",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "reviews viewport 1440 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reviews CTA matches home 1440",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "reviews viewport 1920 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reviews CTA matches home 1920",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "contact-us CTA count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "contact-us viewport 320 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "contact-us viewport 390 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "contact-us viewport 768 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "contact-us viewport 1024 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "contact-us viewport 1440 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "contact-us viewport 1920 has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Contact pre-header exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Yard 1 hours correct",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Yard 2 hours correct",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No JavaScript runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Entire original story in modal unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ 1 full text preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ 2 full text preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ 3 full text preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ 4 full text preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ 5 full text preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ 6 full text preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ 7 full text preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ 8 full text preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ 9 full text preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ 10 full text preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ 11 full text preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ 12 full text preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ 13 full text preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FAQ 14 full text preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Only requested existing files edited",
+      "passed": true,
+      "detail": [
+        "app.js",
+        "about-us/index.html",
+        "reviews/index.html",
+        "faq/index.html",
+        "contact-us/index.html"
+      ]
+    },
+    {
+      "check": "No original files removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Category and product pages untouched",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "errors": [],
+  "changed_existing_files": [
+    "app.js",
+    "about-us/index.html",
+    "reviews/index.html",
+    "faq/index.html",
+    "contact-us/index.html"
+  ],
+  "added_files": [
+    "assets/earthworks-v36-content.css",
+    "assets/earthworks-v36-story.js"
+  ]
+}

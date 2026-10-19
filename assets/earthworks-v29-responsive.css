@@ -1,0 +1,267 @@
+/* Earth Works: targeted header and mobile refinements.
+   Existing font families, body styles and page heading scale remain unchanged.
+   Settings are by component role, never by changing every p / h3 / small tag. */
+@layer ew21-components {
+  :root {
+    --ew29-announcement-size:14px;
+    --ew29-category-label-size:14px;
+    --ew29-category-width:262px;
+    --ew29-header-row-size:85px;
+    --ew29-logo-width:180px;
+    --ew29-action-height:52px;
+  }
+  .ew17-announcement {
+    font-size:var(--ew29-announcement-size)!important;
+    padding-block:8px!important;
+    min-height:34px!important;
+  }
+  .ew17-header .ew17-category-item {
+    font-size:var(--ew29-category-label-size)!important;
+    min-height:40px!important;
+    white-space:normal!important;
+    overflow-wrap:break-word!important;
+  }
+  .ew29-mobile-utilities,.ew29-mobile-cart,.ew29-help-mobile {display:none!important;}
+  @media(min-width:981px) {
+    .ew17-header .ew17-black,.ew17-header .ew17-white {
+      box-sizing:border-box!important;
+      height:var(--ew29-header-row-size)!important;
+      min-height:var(--ew29-header-row-size)!important;
+    }
+    .ew17-header .ew17-black__inner,.ew17-header .ew17-white__inner {
+      box-sizing:border-box!important;
+      height:calc(var(--ew29-header-row-size) - 1px)!important;
+      min-height:calc(var(--ew29-header-row-size) - 1px)!important;
+    }
+    .ew17-header .ew17-logo,.ew17-header .ew17-navlinks {
+      height:calc(var(--ew29-header-row-size) - 1px)!important;
+    }
+    .ew17-header .ew17-logo img {
+      width:var(--ew29-logo-width)!important;
+      height:auto!important;
+      max-height:none!important;
+      max-width:100%!important;
+      transform:none!important;
+    }
+  }
+  @media(min-width:981px) and (max-width:1120px) {
+    :root {--ew29-header-row-size:110px;--ew29-category-width:248px;}
+  }
+  /* One small-screen system. Tablet layouts remain on the existing breakpoint. */
+  @media(max-width:767px) {
+    :root {
+      --ew29-announcement-size:clamp(10.5px,2.94vw,12px);
+      --ew29-category-label-size:14px;
+      --ew29-header-row-size:80px;
+    }
+    html,body {overflow-x:clip!important;}
+    body {padding-top:0!important;padding-bottom:calc(var(--ew29-action-height) + env(safe-area-inset-bottom,0px))!important;}
+    .ew17-announcement {
+      position:relative!important;top:auto!important;
+      display:block!important;text-align:center!important;
+      white-space:nowrap!important;box-sizing:border-box!important;
+      width:100%!important;min-height:32px!important;padding:9px 7px!important;
+      line-height:1.3!important;
+    }
+    .ew17-announcement .ew26-announcement-accent {margin-inline-end:0!important;}
+    /* This promise row is moved into normal flow before the sticky logo row. */
+    .ew17-black.ew29-promise-bar {
+      position:relative!important;display:block!important;
+      height:var(--ew29-header-row-size)!important;min-height:var(--ew29-header-row-size)!important;
+      box-sizing:border-box!important;background:var(--ew19-black)!important;
+      color:#fff!important;border:0!important;
+    }
+    .ew29-promise-bar .ew17-black__inner {
+      display:flex!important;align-items:center!important;justify-content:center!important;
+      width:100%!important;max-width:100%!important;
+      height:100%!important;min-height:0!important;padding:7px 12px!important;box-sizing:border-box!important;
+    }
+    .ew29-promise-bar .ew17-promise {width:auto!important;min-width:0!important;align-items:center!important;text-align:center!important;margin:0!important;}
+    .ew29-promise-bar .ew17-promise__headline {
+      font-family:var(--ew19-font-accent)!important;font-size:16px!important;font-weight:600!important;
+      line-height:1.3!important;letter-spacing:-.25px!important;white-space:nowrap!important;
+    }
+    .ew29-promise-bar .ew17-services {display:flex!important;align-items:center!important;justify-content:center!important;gap:26px!important;margin-top:2px!important;}
+    .ew29-promise-bar .ew17-service-trigger {
+      position:relative!important;font-family:var(--ew19-font-body)!important;
+      font-size:12px!important;font-weight:600!important;line-height:1.2!important;letter-spacing:.01em!important;
+      padding:8px 2px 10px!important;min-height:34px!important;
+    }
+    .ew29-promise-bar .ew17-service-trigger::after {
+      display:block!important;content:""!important;position:absolute!important;
+      left:2px!important;right:2px!important;bottom:3px!important;height:6px!important;
+      background:none!important;border:0!important;border-bottom:2.5px solid var(--ew19-green-bright)!important;
+      border-radius:0 0 50% 50%!important;transform:rotate(-2deg)!important;opacity:1!important;
+    }
+    .ew29-promise-bar .ew17-search,.ew29-promise-bar .ew17-phone,.ew29-promise-bar .ew19-utility-cluster {display:none!important;}
+    .client-header.ew17-header {
+      position:sticky!important;top:0!important;height:auto!important;
+      width:100%!important;left:auto!important;right:auto!important;
+    }
+    .ew17-header .ew17-white {height:80px!important;min-height:80px!important;box-sizing:border-box!important;}
+    .ew17-header .ew17-white__inner {
+      display:grid!important;grid-template-columns:44px minmax(0,1fr) 44px!important;
+      grid-template-rows:79px!important;grid-template-areas:"menu logo cart"!important;
+      align-items:center!important;gap:6px!important;
+      width:100%!important;height:79px!important;min-height:79px!important;padding:0 12px!important;
+    }
+    .ew17-header .ew17-mobile-toggle {
+      grid-area:menu!important;justify-self:start!important;display:grid!important;
+      width:44px!important;height:44px!important;min-width:44px!important;
+      margin:0!important;color:var(--ew19-green-dark)!important;
+    }
+    .ew17-header .ew17-logo {
+      grid-area:logo!important;display:flex!important;align-items:center!important;justify-content:center!important;
+      justify-self:center!important;width:100%!important;max-width:200px!important;height:79px!important;
+      padding:0!important;margin:0!important;overflow:hidden!important;
+    }
+    .ew17-header .ew17-logo img {width:180px!important;max-width:100%!important;max-height:none!important;height:auto!important;transform:none!important;}
+    .ew17-header .ew29-mobile-cart {grid-area:cart!important;display:flex!important;align-items:center!important;justify-content:center!important;}
+    .ew17-header .ew29-mobile-cart .ew17-utility-button {
+      display:flex!important;width:44px!important;height:44px!important;min-width:44px!important;
+      border:0!important;background:transparent!important;padding:10px!important;margin:0!important;
+      color:var(--ew19-green-dark)!important;justify-content:center!important;
+    }
+    .ew17-header .ew29-mobile-cart .ew17-utility-button>span {display:none!important;}
+    .ew17-header .ew29-mobile-cart .ew17-utility-button svg {width:23px!important;height:23px!important;flex-basis:23px!important;}
+    .ew17-header .ew17-quote {display:none!important;}
+    .ew17-header .ew17-navlinks {
+      display:none!important;position:fixed!important;left:0!important;right:0!important;
+      top:var(--ew29-nav-bottom,80px)!important;bottom:calc(var(--ew29-action-height) + env(safe-area-inset-bottom,0px))!important;
+      width:100%!important;height:auto!important;max-height:none!important;min-height:0!important;
+      transform:none!important;margin:0!important;padding:10px 20px 18px!important;
+      background:#fff!important;box-sizing:border-box!important;
+      flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;
+      gap:0!important;overflow-y:auto!important;overflow-x:hidden!important;
+      overscroll-behavior-y:contain!important;z-index:100010!important;
+    }
+    .ew17-header .ew17-white.is-mobile-open .ew17-navlinks {display:flex!important;}
+    .ew17-header .ew17-navlinks > .ew17-navlink,.ew17-header .ew17-navlinks > .ew17-mega-wrap {flex:0 0 auto!important;}
+    .ew17-header .ew17-navlink,.ew17-header .ew17-mega-trigger {
+      display:flex!important;align-items:center!important;justify-content:space-between!important;
+      width:100%!important;min-height:48px!important;height:auto!important;padding:12px 0!important;
+      box-sizing:border-box!important;margin:0!important;
+    }
+    .ew17-header .ew17-mega-wrap .ew17-mega-menu {overflow-x:hidden!important;}
+    .ew17-header .ew17-category-item {padding:10px 12px!important;}
+    .ew17-header .ew29-mobile-utilities {
+      display:flex!important;align-items:flex-start!important;justify-content:flex-start!important;
+      flex:0 0 auto!important;gap:12px!important;margin-top:14px!important;padding-top:14px!important;
+      border-top:1px solid var(--ew19-line)!important;
+    }
+    .ew17-header .ew29-mobile-utilities .ew17-utility-button,
+    .ew17-header .ew29-mobile-utilities .ew17-language>summary {
+      display:flex!important;align-items:center!important;justify-content:center!important;
+      width:44px!important;height:44px!important;min-width:44px!important;padding:10px!important;
+      border:1px solid var(--ew19-line)!important;border-radius:var(--ew21-radius)!important;
+      background:#fff!important;color:var(--ew19-green-dark)!important;
+    }
+    .ew17-header .ew29-mobile-utilities .ew17-utility-button>span,
+    .ew17-header .ew29-mobile-utilities .ew17-language>summary>span {display:none!important;}
+    .ew17-header .ew29-mobile-utilities .ew17-utility-button svg {width:22px!important;height:22px!important;}
+    .ew17-header .ew29-mobile-utilities .ew17-language {position:relative!important;}
+    .ew17-header .ew29-mobile-utilities .ew17-language-menu {top:auto!important;bottom:52px!important;right:auto!important;left:0!important;}
+    .ew17-header .ew29-mobile-utilities .ew17-language-menu button {color:var(--ew19-ink)!important;background:#fff!important;}
+    /* Compact 20 / 20 / 60 action row. The quote uses the existing button fill. */
+    .mobile-action-bar {
+      display:grid!important;position:fixed!important;inset:auto 0 0!important;
+      grid-template-columns:20% 20% 60%!important;gap:0!important;
+      height:calc(var(--ew29-action-height) + env(safe-area-inset-bottom,0px))!important;
+      min-height:0!important;padding:3px 0 calc(3px + env(safe-area-inset-bottom,0px))!important;
+      box-sizing:border-box!important;align-items:center!important;z-index:110000!important;
+    }
+    .mobile-action-bar > a,.mobile-action-bar > button {
+      display:flex!important;align-items:center!important;justify-content:center!important;
+      min-height:44px!important;height:44px!important;min-width:0!important;
+      padding:0!important;margin:0!important;box-sizing:border-box!important;
+    }
+    .mobile-action-bar > :not(.mobile-action-primary) > :not(svg) {display:none!important;}
+    .mobile-action-bar > :not(.mobile-action-primary) svg {display:block!important;width:22px!important;height:22px!important;}
+    .mobile-action-bar .ew29-action-svg {fill:none!important;stroke:currentColor!important;stroke-width:1.8!important;stroke-linecap:round!important;stroke-linejoin:round!important;}
+    .mobile-action-bar > .mobile-action-primary {
+      background:var(--ew21-green-fill)!important;color:#fffdf8!important;
+      border:1px solid #365b06!important;border-radius:var(--ew21-radius)!important;
+      font-family:var(--ew19-font-body)!important;font-size:12px!important;font-weight:750!important;
+      line-height:1.25!important;letter-spacing:.015em!important;text-transform:none!important;
+    }
+    .mobile-action-bar .mobile-action-primary > span:first-child {display:none!important;}
+    .ew17-toast {bottom:calc(64px + env(safe-area-inset-bottom,0px))!important;}
+    /* Same hero artwork, responsive framing; no asset replacement. */
+    .client-home-hero {height:50svh!important;min-height:50svh!important;}
+    .client-home-hero img {width:100%!important;height:100%!important;object-fit:cover!important;object-position:50% center!important;}
+    /* Preserve the original call-banner lettering through responsive SVG crops. */
+    .ew21-help-band.ew21-help-band--image {
+      display:block!important;width:100%!important;max-width:100%!important;
+      padding:0!important;border:0!important;background:transparent!important;
+      min-height:0!important;margin:14px 0 0!important;line-height:0!important;
+    }
+    .ew21-help-band--image .ew29-help-desktop {display:none!important;}
+    .ew21-help-band--image .ew29-help-mobile {display:block!important;width:100%!important;}
+    .ew29-help-mobile > svg {display:block!important;width:100%!important;height:auto!important;}
+    .client-review-controls,.client-project-section .project-carousel__controls {display:none!important;}
+    .client-review-viewport,.client-project-section .project-carousel__viewport {
+      overflow-x:auto!important;overflow-y:hidden!important;scroll-snap-type:x mandatory!important;
+      -webkit-overflow-scrolling:touch;touch-action:pan-x pan-y!important;
+    }
+    .client-section-heading--project > p {display:none!important;}
+    .client-footer .client-footer__grid {
+      display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;
+      gap:28px 18px!important;
+    }
+    .client-footer .client-footer__grid > div {min-width:0!important;grid-column:auto!important;}
+    .client-footer .client-footer__grid > .client-footer__brand,
+    .client-footer .client-footer__grid > div:last-child {grid-column:1/-1!important;}
+    .client-footer .client-footer__wordmark {display:none!important;}
+    .client-footer .client-footer__grid p,.client-footer .client-footer__grid a {overflow-wrap:break-word!important;}
+  }
+  /* New call chooser reuses existing brand colors and button components. */
+  .ew29-call-dialog {
+    box-sizing:border-box!important;width:min(420px,calc(100vw - 32px))!important;
+    padding:22px!important;border:1px solid var(--ew19-line)!important;border-radius:12px!important;
+    background:#fffdf8!important;color:var(--ew19-ink)!important;
+    box-shadow:0 18px 50px #05060444!important;
+  }
+  .ew29-call-dialog::backdrop {background:rgba(5,6,4,.58);}
+  .ew29-call-dialog h2 {margin:0 40px 18px 0!important;font-family:var(--ew19-font-display)!important;font-size:21px!important;line-height:1.2!important;font-weight:750!important;}
+  .ew29-call-dialog .ew29-call-options {display:grid!important;gap:12px!important;}
+  .ew29-call-dialog .ew29-call-options a {display:flex!important;flex-direction:column!important;gap:3px!important;text-decoration:none!important;}
+  .ew29-call-dialog .ew29-call-options a small {font-size:12px!important;font-weight:500!important;}
+  .ew29-call-close {position:absolute!important;right:12px!important;top:12px!important;width:36px!important;height:36px!important;border:1px solid var(--ew19-line)!important;border-radius:50%!important;background:#fff!important;color:var(--ew19-green-dark)!important;font-size:22px!important;cursor:pointer!important;}
+}
+/* These icons are inserted without removing the existing tablet labels. */
+.mobile-action-bar .ew29-action-svg {display:none;}
+@layer ew21-components {
+  @media(min-width:981px) {
+    .ew17-header .ew17-logo img {transform:translateY(3px)!important;}
+  }
+  @media(max-width:767px) {
+    .ew17-header .ew17-logo img {transform:translateY(3px)!important;}
+    .ew17-header .ew29-mobile-utilities .ew17-language {display:block!important;}
+    /* Keep the baked-in headline and mascot together in narrow framing. The
+       sky behind it also comes from the same unchanged hero asset, not a new
+       image. The layout retains at least half the viewport even on short phones. */
+    .client-home-hero {
+      position:relative!important;
+      height:max(50svh,80vw)!important;min-height:50svh!important;
+      overflow:hidden!important;
+    }
+    .client-home-hero::before {
+      display:block!important;content:""!important;position:absolute!important;inset:0!important;
+      background-image:url("homepage-option-v5.png")!important;
+      background-size:auto max(100svh,160vw)!important;
+      background-position:center top!important;background-repeat:no-repeat!important;
+      opacity:1!important;filter:none!important;z-index:0!important;
+    }
+    .client-home-hero img {
+      display:block!important;position:absolute!important;bottom:0!important;top:auto!important;left:50%!important;
+      width:265%!important;height:auto!important;max-width:none!important;max-height:none!important;
+      transform:translateX(-49%)!important;object-fit:contain!important;object-position:center!important;
+      z-index:1!important;mask-image:linear-gradient(to bottom,transparent,#000 6%,#000)!important;
+      -webkit-mask-image:linear-gradient(to bottom,transparent,#000 6%,#000)!important;
+    }
+  }
+}
+@layer ew21-components {
+  /* The longer requested second-card copy keeps a gap above its existing CTA. */
+  .client-feature-card:nth-child(2) .client-feature-card__copy p {margin-bottom:8px!important;}
+}

@@ -1,0 +1,38 @@
+/* V45: dedicated artwork for the four inner-page mobile heroes.
+   All declarations are limited to the existing phone breakpoint. */
+@media (max-width:767px) {
+  .visual-hero.ew45-mobile-hero {
+    height:auto!important;
+    min-height:calc(100vw * 7 / 6)!important;
+    background-image:var(--ew45-mobile-hero-bg)!important;
+    background-size:100% auto!important;
+    background-position:center bottom!important;
+    background-repeat:no-repeat!important;
+    background-color:#faf9f4!important;
+    color:var(--ew19-ink)!important;
+  }
+  .visual-hero.ew45-mobile-hero .visual-hero__overlay {
+    display:none!important;
+  }
+  .visual-hero.ew45-mobile-hero .visual-hero__grid {
+    display:block!important;
+    height:auto!important;
+    min-height:calc(100vw * 7 / 6)!important;
+    padding-top:clamp(24px,6vw,40px)!important;
+    padding-bottom:59vw!important;
+  }
+  .visual-hero.ew45-mobile-hero .visual-hero__copy {
+    width:100%!important;
+    max-width:100%!important;
+    padding:0!important;
+  }
+  .visual-hero.ew45-mobile-hero h1 {
+    color:var(--ew19-green-dark)!important;
+  }
+  .visual-hero.ew45-mobile-hero .visual-hero__copy p {
+    color:var(--ew19-muted)!important;
+  }
+  .visual-hero.ew45-mobile-hero .eyebrow {
+    color:var(--ew19-green)!important;
+  }
+}

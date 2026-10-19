@@ -1,0 +1,55 @@
+{
+  "mascot": "All three banner composites reuse the exact supplied why-earthworks-mascot-nobg.png pixels.",
+  "logo": "The supplied header-logo-client-reference.png is applied as a light-background decal.",
+  "hero": "No hero image or hero layout was changed.",
+  "cards": [
+    {
+      "file": "service-single-axle.webp",
+      "source_native_pixels": [
+        112,
+        102
+      ],
+      "treatment": "Original composition retained; cab paint retouched black; original logo decal; resized and sharpened. Not newly photographed HD."
+    },
+    {
+      "file": "service-tri-axle.webp",
+      "source_native_pixels": [
+        130,
+        102
+      ],
+      "treatment": "Original composition retained; cab paint retouched black; original logo decal; resized and sharpened. Not newly photographed HD."
+    },
+    {
+      "file": "service-flatbed.webp",
+      "source_native_pixels": [
+        129,
+        102
+      ],
+      "treatment": "Original composition retained; cab paint retouched black; original logo decal; resized and sharpened. Not newly photographed HD."
+    },
+    {
+      "file": "service-mulch-install.webp",
+      "source_native_pixels": [
+        83,
+        96
+      ],
+      "treatment": "Same supplied scene, resized with mild edge enhancement. Original HD sources are needed for true detail."
+    },
+    {
+      "file": "service-pinestraw-install.webp",
+      "source_native_pixels": [
+        87,
+        96
+      ],
+      "treatment": "Same supplied scene, resized with mild edge enhancement. Original HD sources are needed for true detail."
+    },
+    {
+      "file": "service-playground-install.webp",
+      "source_native_pixels": [
+        78,
+        96
+      ],
+      "treatment": "Same supplied scene, resized with mild edge enhancement. Original HD sources are needed for true detail."
+    }
+  ]
+}

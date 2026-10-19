@@ -1,0 +1,21 @@
+EARTH WORKS WEBSITE - V32 UPDATE SUMMARY
+
+This V32 release is based on V31 and replaces the previously supplied V32.
+
+Location images
+The Indian Springs and Birmingham images have been swapped to show the correct image for each yard wherever those location images appear. Yard names, addresses, phone numbers and opening hours remain unchanged.
+
+Quote enquiries
+The standalone Get a Quote page has been removed. Quote-request buttons remain in place and now open the Contact Us page directly at the existing enquiry form, scrolling past the hero and location information. Standard Contact Us links continue to open the page from the top.
+
+Reviews
+The review-submission form has been removed. The existing customer reviews remain unchanged.
+
+About Us
+The Landscape Materials section now uses the same four-category grid as the V31 homepage, including the same images, descriptions, Explore buttons and category links:
+- Mulch & Pine Straw
+- Gravel, Palletized, and Decorative Stone
+- Soil, Sand, and Dirt
+- Pipe & Erosion
+
+All other V31 page content, styling and imagery have been retained. The mobile hero and compact location-section changes from the earlier V32 are not included.

@@ -1,0 +1,40 @@
+EARTH WORKS WEBSITE - V36
+Base: earthworks_v35_about_story_drt_reviews.zip
+
+ABOUT US
+- The Our Story section is now one image-and-text row.
+- The introductory story remains alongside the existing supplied photo.
+- A plain Read More text control opens the complete original story in a single-column dialog.
+- The dialog has one main heading, original bold emphasis, a visible Close control, vertical scrolling, Escape/backdrop dismissal and focus return.
+- Removed the extra on-page story blocks beneath the opening row; their complete text remains in the dialog.
+- The About Us pre-header now reads Denny & DRT (the requested pre-header spelling).
+- Danny Stone's name in the supplied story remains unchanged.
+- Meet DRT, the five highlights, material grid, yard images and service-popup links remain in place.
+
+CONTACT AND OPENING HOURS
+- Contact section pre-header: Visit, Call, or Leave Us a Message.
+- Both yards: Monday-Friday 7:00 AM-4:00 PM; Sunday closed.
+- Saturday hours remain 7:00 AM-12:00 PM.
+- The displayed weekday hours were also updated in About Us and homepage location information for consistency.
+
+FAQ
+- Replaced the old questions and placeholder with all 14 client-supplied FAQs.
+- Native accordion interaction, plain paragraphs and supplied bold emphasis only.
+- No additional section headings or lists inside the FAQ content.
+
+READY TO GET STARTED
+- Added the existing homepage CTA immediately before the footer on About Us, Reviews and FAQ.
+- Reused the homepage's exact CTA text, image, button destination and responsive styling.
+- Homepage CTA remains unchanged.
+- No Ready to get started CTA was added to Contact Us, category or product pages.
+
+PRESERVED
+- No image assets were redrawn, replaced or edited.
+- No changes to the shared header, navigation, service dropdowns, footer or review widgets.
+- Category and product files remain byte-for-byte identical to V35.
+
+PREVIEW
+Extract this full ZIP into a new folder and open index.html. All page assets use relative paths.
+
+QA
+109 checks passed. Checked local, in-memory Chromium rendering at widths of 320, 390, 768, 1024, 1440 and 1920 pixels, the modal controls/scrolling/focus, FAQ toggles, CTA consistency, displayed hours, full supplied copy and change scope. No JavaScript runtime errors were observed. Live forms, Google Reviews and external network integrations were not tested or changed.

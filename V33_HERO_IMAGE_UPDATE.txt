@@ -1,0 +1,20 @@
+EARTH WORKS WEBSITE - V33 HERO IMAGE UPDATE
+
+Base: earthworks_v32_revised_from_v31.zip (latest revised V32).
+
+Image replacements:
+- Mobile homepage hero: homepage-mobile-hero-banner.png
+- Contact Us hero: contact-us-hero-banner.png
+- FAQ hero: faq-page-hero-banner.png
+- About Us hero: about-us-page-hero-banner.png
+- Reviews hero: reviews-page-hero-banner.png
+
+The five supplied PNG files are included without image edits or recompression.
+The mobile homepage uses the existing 767px-and-below breakpoint. Its image
+is shown in its original proportions, without the previous desktop-image zoom.
+The desktop and tablet homepage retain the existing desktop hero artwork.
+The four inner-page banners retain their existing copy, typography, overlays,
+layout and responsive behavior; only the background image URLs are replaced.
+All navigation, forms, quote links, footer and other images are unchanged.
+
+Extract the entire archive into a new folder. Open index.html to preview.
