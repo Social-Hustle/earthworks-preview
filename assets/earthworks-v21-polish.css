@@ -1,3 +1,5 @@
+.ew17-category-list .ew49-shop-all-item {padding:12px 12px 0;}
+.ew17-category-list .ew49-shop-all {width:100%;}
 /* Earth Works V21: shared components, compact anchored menus, and final polish.
    One named layer owns component overrides. Its important declarations take
    precedence over the legacy unlayered version files without selector escalation. */
@@ -583,21 +585,20 @@
   box-sizing:border-box!important;
   margin:0!important;
   padding:8px 10px!important;
-  border:0!important;
-  border-radius:0!important;
-  background:var(--ew19-green)!important;
-  background-image:none!important;
-  color:#fff!important;
-  -webkit-text-fill-color:#fff!important;
+  border:1px solid #365b06!important;
+  border-radius:var(--ew21-radius)!important;
+  background:var(--ew21-green-fill)!important;
+  color:#fffdf8!important;
+  -webkit-text-fill-color:currentColor!important;
   font-family:var(--ew19-font-body)!important;
   font-size:11px!important;
   font-weight:750!important;
-  line-height:1.3!important;
+  line-height:1.25!important;
   text-transform:none!important;
   text-decoration:none!important;
   text-align:center!important;
   letter-spacing:0!important;
-  box-shadow:none!important;
+  box-shadow:0 1px 2px #05060416!important;
   opacity:1!important;
 }
 .ew17-header .ew17-mega-product-grid .ew41-menu-card .ew41-menu-view:disabled {
@@ -677,4 +678,13 @@
   @media(max-width:620px) {
     .dawn-collection .ew39-listing-card .dawn-card__title {font-size:16px!important;}
   }
+}
+
+/* V50: upcoming turf uses the normal green CTA appearance without an action. */
+@layer ew21-components {
+ .ew50-coming-soon.ew21-button,
+ .ew50-coming-soon.ew21-button:hover {
+  cursor:default!important;pointer-events:none!important;opacity:1!important;
+  filter:none!important;transform:none!important;box-shadow:0 1px 2px #05060416!important;
+ }
 }

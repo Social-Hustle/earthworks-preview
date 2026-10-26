@@ -1,9 +1,9 @@
 (function(){
 const map={
   '#category/mulch-pine':'collections/mulch-and-pine-straw/index.html',
-  '#category/gravel-sand':'collections/gravel-and-stone/index.html',
-  '#category/soil-blends':'collections/soil-and-fill-dirt/index.html',
-  '#category/decorative-stone':'collections/gravel-and-stone/index.html',
+  '#category/gravel-sand':'collections/gravel-and-decorative-stone/index.html',
+  '#category/soil-blends':'collections/soil-and-sand/index.html',
+  '#category/decorative-stone':'collections/gravel-and-decorative-stone/index.html',
   '#category/firewood':'collections/all/index.html',
   '#supplies':'collections/all/index.html',
   '#reviews':'pages/reviews/index.html',

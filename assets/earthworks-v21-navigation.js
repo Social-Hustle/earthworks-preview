@@ -97,6 +97,18 @@
   const megaViewAll = header.querySelector('[data-mega-viewall]');
   const megaService = header.querySelector('[data-mega-service]');
   const categoryButtons = [...header.querySelectorAll('[data-mega-category]')];
+  // Shop All is a direct link, separate from category preview behavior.
+  const categoryList = header.querySelector('.ew17-category-list');
+  if (categoryList) {
+    const item = document.createElement('li');
+    item.className = 'ew49-shop-all-item';
+    const link = document.createElement('a');
+    link.className = 'ew21-button ew21-button--green ew49-shop-all';
+    link.href = r('collections/all/index.html');
+    link.textContent = 'Shop All';
+    item.append(link);
+    categoryList.append(item);
+  }
   const white = header.querySelector('.ew17-white');
   const mobileToggle = header.querySelector('.ew17-mobile-toggle');
   let serviceKey = null, servicePinned = false, serviceAnchor = null, serviceTimer;
@@ -293,13 +305,8 @@
   function renderProduct(product, groupTitle) {
     const [title,slug,image,status,label] = product;
     const href = r('products/'+slug+'/index.html');
-    // Listing-only items have no active product-detail links until approved content is ready.
-    if (status === 'listing-only' || status === 'coming-soon') {
-      return `<article class="dawn-card ew20-menu-card ew39-listing-card ew41-menu-card"><div class="dawn-card__media"><img src="${r(image)}" alt="${esc(title)}" width="240" height="240" loading="lazy"></div>
-        <div class="dawn-card__info"><div class="dawn-card__category">${esc(label || productCategories[slug] || groupTitle)}</div><h3 class="dawn-card__title">${esc(title)}</h3><div class="dawn-card__actions"><button class="view ew41-menu-view" type="button"${status === 'coming-soon' ? ' disabled' : ''}>${status === 'coming-soon' ? 'Coming Soon!' : 'View Product'}</button></div></div></article>`;
-    }
     return `<article class="dawn-card ew20-menu-card ew41-menu-card"><a class="dawn-card__media" href="${href}" aria-label="View ${esc(title)}"><img src="${r(image)}" alt="${esc(title)}" width="240" height="240"></a>
-      <div class="dawn-card__info"><div class="dawn-card__category">${esc(label || productCategories[slug] || groupTitle)}</div><h3 class="dawn-card__title"><a href="${href}">${esc(title)}</a></h3><p class="dawn-card__meta">View product details, uses and quote options.</p><div class="dawn-card__actions"><a class="view ew41-menu-view" href="${href}">View Product</a></div></div></article>`;
+      <div class="dawn-card__info"><div class="dawn-card__category">${esc(label || productCategories[slug] || groupTitle)}</div><h3 class="dawn-card__title"><a href="${href}">${esc(title)}</a></h3><div class="dawn-card__actions"><a class="view ew41-menu-view ew21-button ew21-button--green ew21-button--compact" href="${href}">View Product</a></div></div></article>`;
   }
   function updateProductControls() {
     if (megaGrid) megaGrid.classList.toggle('can-scroll',megaGrid.scrollHeight > megaGrid.clientHeight + 2);
